@@ -40,17 +40,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/ivExercise" />
 
-        <TextView
-            android:id="@+id/tvTimeLeft"
-            style="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="70sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="26dp"
-            android:text="@{exerciseTimerViewModel.timeLeft.toString()}"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvTime" />
+<!--        <TextView-->
+<!--            android:id="@+id/tvTimeLeft"-->
+<!--            style="@style/TextAppearance.AppCompat.Body2"-->
+<!--            android:textSize="70sp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="26dp"-->
+<!--            android:text="@{exerciseTimerViewModel.timeLeft.toString()}"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvTime" />-->
 
         <Button
             android:id="@+id/btnPause"
